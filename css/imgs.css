@@ -1,0 +1,434 @@
+
+
+	.imgs{
+
+      height: 260px;
+    width: 280px;
+    min-width: 170px;
+    min-height: 220px;
+    
+    margin: 50px;
+box-shadow:0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+position: center;
+    padding: 0 5px;
+    list-style: none;
+    animation: cima .7s linear;
+
+	}
+
+
+
+	.imgs:hover{
+
+    transform: translateY(-3px);
+
+}
+
+
+.imgs img{
+
+    height: 170px;
+    width: 260px;
+    margin-top: 15px;
+
+}
+
+
+.topup{
+
+
+    margin-top: -100px;
+}
+
+
+.movimento-titulo{
+
+
+    margin-top: 10px;
+
+
+
+}
+
+
+
+
+/*responsividade do quadrado e da imagem*/
+
+
+
+
+
+ @media (max-width: 600px){
+
+
+.imgs{
+
+      height: 260px;
+    width: 280px;
+    min-width: 280px;
+    min-height: 220px;
+    
+    margin: 50px;
+box-shadow:0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+
+    padding: 0 5px;
+    list-style: none;
+    animation: cima .7s linear;
+
+    }
+
+
+ }
+
+
+  @media (max-width: 800px){
+
+
+.imgs{
+
+      height: 260px;
+    width: 280px;
+    min-width: 280px;
+    min-height: 220px;
+    
+    margin: 50px;
+box-shadow:0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+
+    padding: 0 5px;
+    list-style: none;
+    animation: cima .7s linear;
+
+    }
+
+
+ }
+
+
+ .bton{
+
+text text-decoration: none;
+
+}
+
+.form-up{
+
+
+
+    margin-top: 70px;
+}
+.margin-tp{
+
+
+    margin-top: -260;
+}
+
+
+.start{
+
+    margin-top: -150px;
+}
+.subir{
+
+    margin-top: 20px;
+}
+
+.xdd{
+
+    margin-top: -60px;
+}
+
+.margintop{
+
+    margin-top: 90px;
+
+}
+
+
+
+
+
+  @media (max-width: 800px){
+
+    #setas{
+
+
+        background-image: url('image_tecnicos/imagem/setinha.png') ;
+    }
+    }
+
+
+
+
+  @media (max-width: 600px){  #setas{
+
+
+        background: transparent url('../image_tecnicos/setinha.png') ;
+    }
+    }
+ }
+
+ @media (max-width: 300px){ #setas{
+
+
+        background: transparent url('../image_tecnicos/setinha.png') ;
+    }
+    }
+} 
+
+
+  
+  
+  
+  
+  
+#setas{
+
+
+
+animation-delay:1s;
+
+ani
+
+   margin-top: -150px;
+}
+
+
+
+.setad{
+margin-left: 1100px;
+margin-top: -320;
+display: none;
+
+}
+
+
+
+
+@media (max-width: 800px){
+
+   .setad{
+
+    display: ;
+   }
+    }
+
+#border{
+
+background-image: linear-gradient( to right, #9b40ed, #5c12a1);
+    border-radius: 2rem;
+    color:white;
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+
+
+}
+
+
+.border2{
+
+background-image: linear-gradient( to right, #9b40ed, #5c12a1);
+    border-radius: 2rem;
+    color: white;
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.3rem 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+
+}
+
+
+#sumir{
+
+
+              
+display: none;
+
+    
+}
+
+
+
+#triangle{
+
+
+    margin-top: -330px;
+}
+
+
+.movendo-titulo{
+
+
+ margin-left: -50px;
+
+}
+
+
+
+.anima{
+
+       animation: direita .5s linear;
+}
+
+
+@keyframes direita {
+
+
+    0%{
+
+        transform: translate3d(-8vw, 0, 0);
+
+    }
+
+     0%{
+
+opacity: 0;
+    }
+
+     100%{
+
+opacity: 2;
+    }
+
+}
+
+
+
+#anima{
+
+       animation: direita .5s linear;
+}
+
+
+@keyframes direita {
+
+
+    0%{
+
+        transform: translate3d(-15vw, 0, 0);
+
+    }
+     0%{
+
+opacity: 0;
+    }
+
+     100%{
+
+opacity: 2;
+    }
+
+}
+
+
+
+#anime{
+
+animation: esquerda .5s linear
+
+}
+
+/*jshjshsjhjhsjhdjshdjhalui.hkssssss*/
+
+
+.animo{
+
+       animation: direita .8s linear;
+}
+
+
+@keyframes direita {
+
+
+    0%{
+
+        transform: translate3d(-8vw, 0, 0);
+
+    }
+
+     0%{
+
+opacity: 0;
+    }
+
+     100%{
+
+opacity: 2;
+    }
+
+}
+
+
+
+#animo{
+
+       animation: direita .8s linear;
+}
+
+
+@keyframes direita {
+
+
+    0%{
+
+        transform: translate3d(-15vw, 0, 0);
+
+    }
+     0%{
+
+opacity: 0;
+    }
+
+     100%{
+
+opacity: 2;
+    }
+
+}
+
+
+
+
+
+
+
+ @media screen and (max-width: 480px){
+ #mateus{
+margin-top: 120px;
+ }}
+
+
+#lado{
+
+
+    margin-right: 100px;
+}
+
+
+#div{
+
+    display: none;
+}
+
+
+
+ @media screen and (max-width: 365px){
+
+
+
+.dom{
+
+
+    width:300px ;
+}
+}
+
+
